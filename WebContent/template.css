@@ -1,0 +1,144 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: "Lato", sans-serif;
+}
+
+
+.bgimg {
+    background-image: url('images/m2.jpg');
+    background-repeat: no-repeat;
+}
+
+select::-ms-expand {
+    display: none;
+   
+}
+select{
+	
+	 -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
+
+.templatemo_right_panel_fullwidth {
+	text-align: center;
+	
+	padding: 0 0 25px 0;
+}
+
+.templatemo_right_panel_fullwidth img{
+	text-align: center;
+	margin: 3px 10px 0 0;
+}
+
+.templatemo_right_panel_fullwidth_content {
+	text-align: center;
+	width: 620px;
+	padding: 0 15px 25px 15px;
+}
+
+.templatemo_right_panel_fullwidth_content p{
+	text-align: center;
+}
+#topdownload_section {
+	
+	width:100%;
+
+	background: black;
+}
+
+
+button.accordion {
+	text-align: left;
+	float:left;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+    text-align: left;
+	float:left;
+}
+
+button.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796";
+}
+
+div.panel {
+    padding: 0 18px;
+   
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 5000px;  
+}
+/*--- Left Column---*/
+#templatemo_left_column {
+	float: left;
+	margin: 20px 10px 0 0;
+	padding: 0px;
+	width: 235px;
+}
+
+.left_col_box {
+	margin: 0 0 25px 25px;
+	color: #AAA;	
+}
+
+.blog_box {
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #220404;
+}
+
+.blog_box h3 a{
+	font-size: 12px;
+	color: #d3a401;	
+	
+}
+
+.blog_box span{
+	color: #99836c;
+}
+/*--- End of Left Column---*/
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myloginForm{
+     
+    border: 3px solid #f1f1f1;
+    padding: 10px;
+    box-shadow: 5px 10px #DCDCDC;
+    width:50%;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
